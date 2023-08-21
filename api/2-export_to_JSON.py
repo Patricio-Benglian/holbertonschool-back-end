@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Export to JSON module"""
+import json
 import requests
 from sys import argv
-import json
 
 if __name__ == "__main__":
     employee_id = argv[1]  # Usage: ./filename {id}
